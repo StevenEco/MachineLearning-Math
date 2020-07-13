@@ -1,0 +1,11 @@
+D:\GithubRepo\MLMath\TestCode\G1\bin\Debug\netcoreapp3.1\G1.exe
+D:\GithubRepo\MLMath\TestCode\G1\bin\Debug\netcoreapp3.1\G1.deps.json
+D:\GithubRepo\MLMath\TestCode\G1\bin\Debug\netcoreapp3.1\G1.runtimeconfig.json
+D:\GithubRepo\MLMath\TestCode\G1\bin\Debug\netcoreapp3.1\G1.runtimeconfig.dev.json
+D:\GithubRepo\MLMath\TestCode\G1\bin\Debug\netcoreapp3.1\G1.dll
+D:\GithubRepo\MLMath\TestCode\G1\bin\Debug\netcoreapp3.1\G1.pdb
+D:\GithubRepo\MLMath\TestCode\G1\obj\Debug\netcoreapp3.1\G1.csprojAssemblyReference.cache
+D:\GithubRepo\MLMath\TestCode\G1\obj\Debug\netcoreapp3.1\G1.AssemblyInfoInputs.cache
+D:\GithubRepo\MLMath\TestCode\G1\obj\Debug\netcoreapp3.1\G1.AssemblyInfo.cs
+D:\GithubRepo\MLMath\TestCode\G1\obj\Debug\netcoreapp3.1\G1.dll
+D:\GithubRepo\MLMath\TestCode\G1\obj\Debug\netcoreapp3.1\G1.pdb

@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj": {}
+    "F:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj": {}
   },
   "projects": {
-    "D:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj": {
+    "F:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj",
+        "projectUniqueName": "F:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj",
         "projectName": "G1",
-        "projectPath": "D:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj",
-        "packagesPath": "C:\\Users\\WarrenRyan\\.nuget\\packages\\",
-        "outputPath": "D:\\GithubRepo\\MLMath\\TestCode\\G1\\obj\\",
+        "projectPath": "F:\\GithubRepo\\MLMath\\TestCode\\G1\\G1.csproj",
+        "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
+        "outputPath": "F:\\GithubRepo\\MLMath\\TestCode\\G1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\WarrenRyan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://47.106.126.81:5555/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +53,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
         }
       }
     }

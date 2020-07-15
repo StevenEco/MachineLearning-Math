@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace G1
 {
     class Program
@@ -33,6 +34,34 @@ namespace G1
             x = temp;
             return Iterative(func, x);
         }
+
+        public static double Newtown(Func<double, double> fx, Func<double, double> f1x, double x)
+        {
+            var temp = f1x.Invoke(x);
+            if (temp == 0)
+            {
+                throw new ArgumentException();
+            }
+            x = x - fx.Invoke(x) / temp;
+            if (Math.Abs(fx.Invoke(x)) <= epsilon)
+            {
+                return x;
+            }
+            return Newtown(fx, f1x, x);
+        }
+
+        public static double StringCut(Func<double, double> func, double x1, double x2)
+        {
+            var temp = x1 - (func.Invoke(x1) / (func.Invoke(x1) - func.Invoke(x2))) * (x1 - x2);
+            x2 = x1;
+            x1 = temp;
+            if (Math.Abs(func.Invoke(x1)) <= epsilon)
+            {
+                return x1;
+            }
+            return StringCut(func, x1, x2);
+        }
+
         static void Main(string[] args)
         {
             var fx = new Func<double, double>(x => (x - 1) * (x + 1));
@@ -42,8 +71,10 @@ namespace G1
             {
                 var real = Binary(fx, 0, 1.857);
                 var real1 = Iterative(phix, 3);
+                var real2 = Newtown(x => x * x, x => 2 * x, 1.5);
                 Console.WriteLine("The x = {0},fx={1}", real, fx.Invoke(real));
                 Console.WriteLine("The x = {0},fx={1}", real1, f1.Invoke(real1));
+                Console.WriteLine("The x = {0},fx={1}", real2, real2 * real2);
             }
             catch (ArgumentException e)
             {

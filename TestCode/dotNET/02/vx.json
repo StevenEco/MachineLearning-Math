@@ -1,0 +1,37 @@
+{
+    "created_time": "2022-02-13T03:55:15Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:16Z",
+            "id": "76",
+            "modified_time": "2022-02-13T03:55:16Z",
+            "name": "G1.csproj",
+            "signature": "65929392718116",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:17Z",
+            "id": "85",
+            "modified_time": "2022-02-13T03:55:17Z",
+            "name": "Program.cs",
+            "signature": "80558051328293",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "bin"
+        },
+        {
+            "name": "obj"
+        }
+    ],
+    "id": "72",
+    "modified_time": "2022-02-13T03:55:15Z",
+    "signature": "102243341205795",
+    "version": 3
+}

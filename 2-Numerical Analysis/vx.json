@@ -1,0 +1,121 @@
+{
+    "created_time": "2022-02-13T03:55:06Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:07Z",
+            "id": "11",
+            "modified_time": "2022-02-13T03:55:07Z",
+            "name": "1-绪论及误差分析.md",
+            "signature": "24504433148187",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:07Z",
+            "id": "12",
+            "modified_time": "2022-02-13T03:55:07Z",
+            "name": "10-边界、最优.md",
+            "signature": "120883499270427",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:07Z",
+            "id": "13",
+            "modified_time": "2022-02-13T03:55:07Z",
+            "name": "11-机器学习中的数值分析详解.md",
+            "signature": "99992778342683",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:07Z",
+            "id": "14",
+            "modified_time": "2022-02-13T04:21:28Z",
+            "name": "2-任意方程求根.md",
+            "signature": "72273059414299",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:07Z",
+            "id": "15",
+            "modified_time": "2022-02-13T03:55:07Z",
+            "name": "3-任意曲线拟合.md",
+            "signature": "42783813959963",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:07Z",
+            "id": "16",
+            "modified_time": "2022-02-13T03:55:07Z",
+            "name": "4-线性代数快速求解.md",
+            "signature": "2110473666843",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:08Z",
+            "id": "17",
+            "modified_time": "2022-02-13T03:55:08Z",
+            "name": "5-任意函数求积.md",
+            "signature": "12865071776028",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:08Z",
+            "id": "18",
+            "modified_time": "2022-02-13T03:55:08Z",
+            "name": "6-最小二乘法.md",
+            "signature": "51292144173340",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:08Z",
+            "id": "19",
+            "modified_time": "2022-02-13T03:55:08Z",
+            "name": "7-微分方程求解.md",
+            "signature": "20733451862300",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:08Z",
+            "id": "20",
+            "modified_time": "2022-02-13T03:55:08Z",
+            "name": "8-随机.md",
+            "signature": "23349086945564",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-13T03:55:08Z",
+            "id": "21",
+            "modified_time": "2022-02-13T03:55:08Z",
+            "name": "9-压缩与降维.md",
+            "signature": "139119930409244",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "10",
+    "modified_time": "2022-02-13T03:55:06Z",
+    "signature": "105073724653850",
+    "version": 3
+}

@@ -1,7 +1,6 @@
-﻿
-using System;
-double epsilon = 0.001;
+﻿double epsilon = 0.001;
 int times = 20;
+
 double Binary1(Func<double, double> func, double a, double b)
 {
     var f1 = func.Invoke(a);
@@ -20,6 +19,7 @@ double Binary1(Func<double, double> func, double a, double b)
         return (a + b) / (double)2;
     return Binary1(func, a, b);
 }
+
 double Binary2(Func<double, double> func, double a, double b)
 {
     double mid = int.MaxValue;

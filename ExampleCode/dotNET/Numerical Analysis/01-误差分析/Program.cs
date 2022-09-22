@@ -7,7 +7,7 @@ double E1(double x)
 
 double E2(double x)
 {
-    return 1/ (1+Math.Cos(x));
+    return 1 / (1 + Math.Cos(x));
 }
 
 

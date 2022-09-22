@@ -1,0 +1,19 @@
+function result = Lagrange(x,y,xi)
+    if length(x) ~= length(y)
+         throw("dim x not equal dim y");
+    end
+    for p=0:length(xi)
+        value = 0;
+        for i=0:length(x)
+            mulValue = 1;
+            for k=0:length(x)
+                if i ~= k
+                    mulValue = mulValue*(xi(p) - x(k))/ (x(i)-x(k));
+                end
+            value = value + mulValue * y(i)
+            end
+        end
+    end
+    result(p) = value;
+end
+
